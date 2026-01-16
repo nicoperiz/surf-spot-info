@@ -1,34 +1,20 @@
-# Surf Spots Costa Vicentina
+# Costa Vicentina Surf Guide
 
-Mini progetto realizzato come esercizio pratico per imparare:
+A lightweight, dynamic web application providing technical data for the best surf spots in Southwest Portugal. Built to demonstrate modern vanilla JavaScript capabilities and responsive UI design.
 
-- HTML
-- CSS
-- JavaScript
-
-## Descrizione
-
-Questa pagina mostra alcuni dei migliori surf spot della Costa Vicentina.  
-Ogni spot ha un pulsante "Mostra info" che apre un pannello con informazioni dettagliate: tipo di onda e livello consigliato.  
-
-⚠️ Questo progetto è un **esercizio didattico**, ma è pronto da mostrare in portfolio come primo mini-progetto funzionante.
-
-## Tecnologie utilizzate
-
-- HTML
-- CSS
-- JavaScript (DOM, EventListener, classList.toggle)
-
-## Come funziona
-
-1. Cliccare sul pulsante "Mostra info" sotto uno spot per visualizzare le informazioni  
-2. Cliccare di nuovo per nascondere le informazioni  
-
-## Link GitHub Pages
-
+## 🚀 Live Demo
 [https://nicoperiz.github.io/surf-spot-info/](https://nicoperiz.github.io/surf-spot-info/)
 
----
+## 🛠️ Key Technical Features
+- **Combined Filtering System**: Seamlessly integrates text-based search with category filters (Beginner vs All) for precise and consistent results.
+- **Dynamic DOM Injection**: Content is rendered entirely through JavaScript, simulating a real-world data-driven application.
+- **Responsive Architecture**: Implemented with CSS Grid (auto-fit) to ensure a perfect layout on any device size.
+- **English UI**: Built following international professional standards.
 
-**Autore:** Nico Periz  
-**Scopo:** primo progetto portfolio funzionale
+## 💻 Tech Stack
+- **HTML5**
+- **CSS3** (Grid & Flexbox)
+- **Vanilla JavaScript** (ES6+)
+
+## 👤 Author
+**Nico Periz**

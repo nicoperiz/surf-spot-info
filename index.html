@@ -3,78 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surf Spots Info</title>
+  <title>Surf Spots Costa Vicentina</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Surf Spots Costa Vicentina</h1>
-    <p>Mini guida ai migliori spot per surfare nella zona</p>
+    <h1>Costa Vicentina Surf Guide</h1>
+    <p>Technical data for the best spots in Southwest Portugal</p>
+    
+    <div class="filters">
+      <button id="btn-all" class="filter-btn active">All Spots</button>
+      <button id="btn-beginners" class="filter-btn">Beginner Friendly</button>
+    </div>
+
+    <div class="search-container">
+      <input type="text" id="search-bar" placeholder="Search spot by name...">
+    </div>
   </header>
 
-  <div class="spots-container">
-
-    <!-- Spot 1 -->
-    <div class="spot">
-      <h2>Arrifana</h2>
-      <button class="info-btn">Mostra info</button>
-      <div class="info">
-        <ul>
-          <li>Onde: sinistra lunga</li>
-          <li>Livello: intermedio</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Spot 2 -->
-    <div class="spot">
-      <h2>Amado</h2>
-      <button class="info-btn">Mostra info</button>
-      <div class="info">
-        <ul>
-          <li>Onde: destra lunga</li>
-          <li>Livello: intermedio/avanzato</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Spot 3 -->
-    <div class="spot">
-      <h2>Monte Clérigo</h2>
-      <button class="info-btn">Mostra info</button>
-      <div class="info">
-        <ul>
-          <li>Onde: beach break</li>
-          <li>Livello: principiante/intermedio</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Spot 4 -->
-    <div class="spot">
-      <h2>Carrapateira</h2>
-      <button class="info-btn">Mostra info</button>
-      <div class="info">
-        <ul>
-          <li>Onde: reef break</li>
-          <li>Livello: avanzato</li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Spot 5 -->
-    <div class="spot">
-      <h2>Bordeira</h2>
-      <button class="info-btn">Mostra info</button>
-      <div class="info">
-        <ul>
-          <li>Onde: beach break lungo</li>
-          <li>Livello: intermedio</li>
-        </ul>
-      </div>
-    </div>
-
-  </div>
+  <div id="spots-container" class="spots-container"></div>
 
   <script src="script.js"></script>
 </body>
