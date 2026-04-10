@@ -5,24 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Surf Spots Costa Vicentina</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 <body>
   <header>
     <h1>Costa Vicentina Surf Guide</h1>
     <p>Technical data for the best spots in Southwest Portugal</p>
-    
     <div class="filters">
       <button id="btn-all" class="filter-btn active">All Spots</button>
       <button id="btn-beginners" class="filter-btn">Beginner Friendly</button>
     </div>
-
     <div class="search-container">
       <input type="text" id="search-bar" placeholder="Search spot by name...">
     </div>
   </header>
 
+  <div id="map"></div>
+
+  <div class="map-legend">
+  <div class="legend-item">
+    <div class="legend-dot" style="background-color: #00796b"></div> Beginner
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background-color: #f57c00"></div> Intermediate
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background-color: #c62828"></div> Advanced
+  </div>
+  <div class="legend-item">
+    <div class="legend-dot" style="background-color: #1565c0"></div> All levels
+  </div>
+</div>
+
   <div id="spots-container" class="spots-container"></div>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

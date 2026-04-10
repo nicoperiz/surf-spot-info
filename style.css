@@ -80,3 +80,38 @@ button.info-btn {
 ul { list-style: none; padding: 0; margin: 0; }
 li { margin-bottom: 8px; font-size: 0.9rem; }
 li strong { color: #00796b; }
+
+#map {
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  margin: 0 auto 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+  border: 2px solid #b2dfdb;
+}
+
+.map-legend {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #546e7a;
+}
+
+.legend-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+}
